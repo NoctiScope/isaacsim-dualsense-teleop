@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run with Isaac Sim Python",
+      "type": "shell",
+      // Change this if Isaac Sim is installed somewhere else.
+      "command": "C:\\isaacsim\\python.bat",
+      "args": [
+        "${file}"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "detail": "Standalone Python files only; run the teleop examples through Isaac Sim VS Code Edition.",
+      "problemMatcher": []
+    }
+  ]
+}

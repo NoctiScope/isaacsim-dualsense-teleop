@@ -1,0 +1,74 @@
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local Python environments
+.venv/
+venv/
+env/
+
+# Editor configuration containing machine-specific paths
+*.code-workspace
+.idea/
+.vscode/settings.json
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Logs and crash dumps
+log/
+logs/
+*.log
+crash/
+crashes/
+crashdumps/
+*.dmp
+*.mdmp
+*.stackdump
+core
+core.*
+
+# Isaac Sim / Omniverse caches and local runtime data
+cache/
+.cache/
+extscache/
+shadercache/
+kit/cache/
+kit/logs/
+kit/data/
+ov/cache/
+ov/logs/
+
+# Build products and generated simulation output
+build/
+_build/
+dist/
+output/
+outputs/
+generated/
+results/
+recordings/
+captures/
+renders/
+tmp/
+temp/
+*.tmp
+*.bak
+*.autosave
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,23 @@
+{
+    "axes": {
+        "left_x": 0,
+        "left_y": 1,
+        "right_x": 2,
+        "right_y": 3,
+        "l2": 4,
+        "r2": 5
+    },
+
+    "buttons": {
+        "cross": 0,
+        "circle": 1,
+        "square": 2,
+        "triangle": 3,
+        "l1": 9,
+        "r1": 10,
+        "dpad_up": 11,
+        "dpad_down": 12,
+        "dpad_left": 13,
+        "dpad_right": 14
+    }
+}
